@@ -1,0 +1,458 @@
+body {
+    margin: 0;
+    color: black;
+}
+
+div {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+a :visited {
+    text-decoration: none;
+}
+
+.header-anchor {
+    font-size: 0.8rem;
+    position: sticky;
+}
+
+
+.header-links {
+    justify-content: space-between;
+}
+
+.margin-x-1rem {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.margin-x-2rem {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.margin-x-3rem {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.margin-x-7rem {
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.margin-y-1rem {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin-y-2rem {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.padding-1rem {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.padding-y-1_5rem {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.padding-y-0_625rem {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+
+}
+
+.width-75 {
+    width: 75%;
+    margin: auto;
+}
+
+.bg-yellow {
+    background-color: rgb(255, 192, 23);
+}
+
+.font-opensans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-helvetica {
+    font-family: Helvetica;
+}
+
+.align-center {
+    align-items: center;
+}
+
+#medium-logo {
+    width: 8rem;
+}
+
+#header{
+    position :sticky;
+    top: 0;
+    transition: linear 300ms;
+}
+
+
+#first-section {
+    justify-content: space-between;
+    background-color: rgb(255, 192, 23);
+    padding-left: 16rem;
+}
+
+#headline-text {
+
+    flex-flow: column;
+    width: 65%;
+    padding-bottom: 5.5rem;
+
+}
+
+#headline-text h1 {
+    font-size: 6rem;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+#headline-text h2 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+
+}
+
+#medium-animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+#start-reading {
+    background-color: rgb(25,25,25);
+    color: white;
+    border-radius: 1000px;
+    width: fit-content;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-top : 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+#start-reading:hover{
+    background-color: black;
+    color: white;
+}
+
+.main-content {
+
+    margin: auto;
+    margin-top: 1rem;
+    max-width: 65%;
+    width: fit-content;
+    flex-direction: column;
+    
+}
+
+#trending-on-medium {
+
+    flex-direction: column;
+    width: inherit;
+}
+
+
+#trend-article {
+    width: 31%;
+    height: 150px;
+    margin : 0 0;
+}
+
+#trend-title {
+    align-items: center;
+    flex-direction: row;
+}
+
+#trend-title h3 {
+    margin-left: 0.8rem;
+    color: rgb(41,41,41);
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#trend-articles-group {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#author {
+    align-items: center; 
+    justify-content: left;
+}
+
+#author h5{
+    margin: 0;
+}
+
+
+#article-content {
+    flex-direction: column;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex-flow: wrap;
+
+}
+
+#article-number {
+    color: rgb(230, 230, 230);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 1rem;
+}
+
+#article-title {
+    flex-flow: wrap;
+}
+
+#article-title h4{
+    margin-bottom: 0;
+}
+
+
+#article-stats p{
+   margin-top: 0;
+   margin-bottom: 0;
+   margin-right: 0.5rem;
+   font-size: 0.8rem;
+}
+
+
+@media (max-width: 1500px)
+{
+    #trend-article {
+        width: 48%;
+        height: 150px;
+        margin : 0 0;
+    }
+}
+
+@media (max-width: 900px)
+{
+    #trend-article {
+        width: 100%;
+        height: 150px;
+        margin : 0 0;
+    }
+}
+
+#content-below{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#famous-articles {
+    width: 63%;
+    height: 3000px;
+    flex-direction: column;
+}
+
+#interest-helper-links {
+    width: 31%;
+    position: sticky;
+    top: 80px;
+    height: fit-content;
+
+
+}
+
+.article-below {
+
+    width: 100%;
+    height: fit-content;
+    flex-flow: row;
+    margin-bottom: 2rem;
+
+}
+
+.article-below img {
+    width: 200px;
+    height: 134px;
+}
+
+
+.article-information h3{
+
+    font-size: 1.375rem;
+
+}
+
+.article-information {
+    flex-direction: column;
+}
+
+.article-information h3 a {
+    color: rgb(41,41,41);
+    font-weight: bold;
+    margin-top : 0.2rem;
+    margin-bottom : 0.2rem;
+}
+
+.article-information h3 a:hover{
+    
+    color: rgb(0,0,0);
+
+
+}
+
+.article-information div {
+    flex-direction: column;
+}
+
+.article-information div p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.color-rgb-117-117-117 {
+    color: rgb(117, 117, 117);
+}
+
+.f-size-1rem {
+    font-size: 1rem;
+}
+
+.margin-y-0_2rem {
+    margin-top : 1rem;
+    margin-bottom : 1rem;
+}
+
+.margin-0 {
+    margin: 0;
+}
+
+
+#interest-helper-links{
+    flex-direction: column;
+}
+
+#interests {
+    width: 100%;
+    flex-flow: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    padding-bottom: 2rem;
+
+
+}
+
+.topic {
+    color: rgb(117, 117, 117);
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 2px;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin: 0.25rem;
+}
+
+#links {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+#links a {
+
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    color: rgb(117, 117, 117);
+    margin-bottom: 0.5rem;
+
+    height: min-content;
+    font-size: 0.875rem;
+
+}
+
+@media (max-width: 1400px)
+{
+    .main-content {
+
+        margin: auto;
+        margin-top: 1rem;
+        max-width: 90%;
+        width: fit-content;
+        flex-direction: column;
+    }
+}
+
+.headerScroolY {
+    background-color: white;
+}
+
+.bg-green {
+    background-color: rgb(26,137,23);
+}
+
+.f-color-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+@media (max-width: 1000px) {
+    #content-below {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    #interest-helper-links {
+        width: 100%;
+        position: unset;
+    }
+
+    .article-information h3 {
+        font-size: 1rem;
+    }
+
+    .article-information div p {
+        display: none
+    }
+
+    .article-below img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #famous-articles {
+        margin : auto;
+    }
+}
+
+
+@media (max-width: 700px)
+{
+    #medium-animation {
+        display: none;
+    }
+}
